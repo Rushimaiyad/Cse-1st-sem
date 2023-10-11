@@ -1,13 +1,16 @@
 #include<stdio.h>
 
 void main(){
-	int n,i,j;
+	int n,i,j,k=1;
 	printf("enter value of n:");
 	scanf("%d",&n);
-	for(i=5;i>=1;i--){
+	for(i=1;i<=n;i++){
 		for(j=1;j<=i;j++){
-			printf("%d",j);
+			printf("%d",k);
+			k++;
 		}
 		printf("\n");
+		}
+	
 	}
-}
+
